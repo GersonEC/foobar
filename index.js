@@ -1,11 +1,11 @@
 function fooBar(){
-  for(let i = 1; i <= 15; i++){
+  for(let i = 1; i <= 100; i++){
     if(i % 3 === 0 && i % 5 === 0){
-      console.log('foobar');
+      console.log('FooBar');
     } else if(i % 3 === 0){
-      console.log('foo');
+      console.log('Foo');
     } else if (i % 5 === 0){  
-      console.log('bar');
+      console.log('Bar');
     } else {
       console.log(i);
     }
